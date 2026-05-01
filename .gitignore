@@ -216,3 +216,52 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Projeto RPA — Credenciais e Dados Sensíveis
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Credenciais e configurações
+.env
+.env.local
+.env*.local
+
+# Licença e dados sensíveis
+license.dat
+config.dat
+.session
+
+# Google Sheets credentials
+credentials.json
+token.pickle
+token.json
+
+# Dados extraídos
+dados/
+dados/*.xlsx
+dados/*.csv
+
+# Playwright browsers
+.playwright/
+browsers/
+user-data/
+
+# Executáveis compilados
+dist/
+build/
+*.exe
+*.spec
+
+# IDE específicas
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+tempCodeRunnerFile.py
+*.tmp
